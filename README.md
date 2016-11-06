@@ -26,3 +26,5 @@ This application is published under the MIT License, modified version of the ori
 By downloading, copying or using the Software, You agree to the terms and conditions of this Agreement.
 
 *Softwares under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) were used for the project.*
+
+Copyright (c) Antonio Santoro aka anphetamina - 2016
