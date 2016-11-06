@@ -27,4 +27,5 @@ By downloading, copying or using the Software, You agree to the terms and condit
 
 *Softwares under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) were used for the project.*
 
-Copyright (c) Antonio Santoro aka anphetamina - 2016
+
+*Copyright (c) Antonio Santoro - 2016*
