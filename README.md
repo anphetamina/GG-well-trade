@@ -1,4 +1,6 @@
-# GG-well-trade
+## GG well trade!
+
+...allows you to find trades from the most used Rocket League trades platforms.
 
 #How to
 
