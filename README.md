@@ -1,4 +1,4 @@
-## GG well trade!
+## GG well trade! (BETA)
 
 ...allows you to find trades from the most used Rocket League trades platforms.
 
@@ -15,7 +15,7 @@ To perform a new search please follow these easy steps:
 If new items are added to the game please use the "Update items" function under the Menu and expect a new update.
 For newer versions please refer to this page or to my profiles.
 
-If you like my work, please donate, I really appreciated it :)
+If you like my work, please donate, I really appreciated any type of donations :)
 
 [![Paypal](https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QH56EW28TJGEY)
 
