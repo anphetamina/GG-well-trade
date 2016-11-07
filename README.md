@@ -19,6 +19,9 @@ If you like my work, please donate, I really appreciated it :)
 
 [![Paypal](https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QH56EW28TJGEY)
 
+*Donators*
+
+-------------
 **ENJOY!**
 
 #Terms and conditions
