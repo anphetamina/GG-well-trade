@@ -9,7 +9,8 @@ To perform a new search please follow these easy steps:
 1. Put in the [H]ave panel the item you WANT 
 2. Put in the [W]ant panel the item you HAVE 
 3. To run press the Start button 
-4. Stop to cancel the current search 
+4. Press the Stop button to cancel the current search 
+5. Double-click on a trade to open it
 
 If new items are added to the game please use the "Update items" function under the Menu and expect a new update.
 For newer versions please refer to my profiles or to the main reddit post.
