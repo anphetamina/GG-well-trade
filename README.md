@@ -13,7 +13,7 @@ To perform a new search please follow these easy steps:
 5. Double-click on a trade to open it
 
 If new items are added to the game please use the "Update items" function under the Menu and expect a new update.
-For newer versions please refer to my profiles or to the main reddit post.
+For newer versions please refer to this page or to my profiles.
 
 If you like my work, please donate, I really appreciated it :)
 
