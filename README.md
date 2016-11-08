@@ -12,6 +12,8 @@ To perform a new search please follow these easy steps:
 4. Press the Stop button to cancel the current search 
 5. Double-click on a trade to open it
 
+###### Remember that you don't need to Start Stop the current search to find new trades, they will be added to the list automatically.
+
 If new items are added to the game please use the "Update items" function under the Menu and expect a new update.
 For newer versions please refer to this page or to my profiles.
 
