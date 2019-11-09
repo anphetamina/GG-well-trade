@@ -26,7 +26,7 @@ If you like my work, please donate, I really appreciated any type of donations :
 -------------
 **ENJOY!**
 
-#Terms and conditions
+# Terms and conditions
 
 This application is published under the MIT License, modified version of the original work must contains original author's references.
 By downloading, copying or using the Software, You agree to the terms and conditions of this Agreement.
