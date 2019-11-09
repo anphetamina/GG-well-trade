@@ -2,7 +2,7 @@
 
 ...allows you to find trades from the most used Rocket League trades platforms.
 
-#How to
+# How to
 
 To perform a new search please follow these easy steps: 
 
