@@ -1,0 +1,11 @@
+**First thing, "Striker" cert is missing
+
+But what if I have a NON-colored wheel to trade. The option "normal" isn't here
+
+**specificare che bisogna lasciarlo runnare
+
+caratteri più grandi nelle caselle degli oggetti
+
+implementare sistema di notifica
+
+**aggiornare tutorial

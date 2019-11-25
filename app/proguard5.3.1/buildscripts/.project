@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>buildscripts</name>
+	<comment>Project buildscripts created by Buildship.</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Antonio-workspace-GG Well Trade-proguard5.3.1-src</name>
+			<type>2</type>
+			<location>D:/Antonio/workspace/GG Well Trade/proguard5.3.1/src</location>
+		</link>
+		<link>
+			<name>GG Well Trade-proguard5.3.1-src</name>
+			<type>2</type>
+			<location>D:/Antonio/workspace/GG Well Trade/proguard5.3.1/src</location>
+		</link>
+		<link>
+			<name>proguard5.3.1-src</name>
+			<type>2</type>
+			<location>D:/Antonio/workspace/GG Well Trade/proguard5.3.1/src</location>
+		</link>
+		<link>
+			<name>src</name>
+			<type>2</type>
+			<location>D:/Antonio/workspace/GG Well Trade/proguard5.3.1/src</location>
+		</link>
+		<link>
+			<name>workspace-GG Well Trade-proguard5.3.1-src</name>
+			<type>2</type>
+			<location>D:/Antonio/workspace/GG Well Trade/proguard5.3.1/src</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xml:lang="en" lang="en">
+<h:head>
+    <title>GG Well Trade</title>
+</h:head>
+<h:body>
+
+    <style type="text/css">
+        .ui-autocomplete input {
+            /*width: 60%;*/
+        }
+
+        .ui-autocomplete {
+            /*width: 100%;*/
+        }
+
+        .ui-widget {
+            font-size: 16px;
+        }
+
+        .ui-layout-unit {
+            border: none;
+        }
+
+        .ui-layout-unit .ui-layout-unit-content {
+            border: none;
+            /*overflow: hidden !important;*/
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            color: lightgray;
+            background-color: lightgray;
+        }
+
+        a {
+            text-decoration:none;
+        }
+    </style>
+
+    <p:layout fullPage="true">
+        <p:layoutUnit position="east" size="200" style="text-align: center">
+            <p:graphicImage library="img" name="about/LOGO2.png"/>
+            <br/>
+            If you like my work, please donate, I appreciate any type of donation, THANK YOU! :)
+            <br/>
+            <br/>
+            <a href="http://paypal.me/ASantoro93">
+                <img alt="" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" />
+            </a>
+
+            <p style="text-align: left; font-size: 18px; font-style: italic">Donators</p>
+            <hr/>
+        </p:layoutUnit>
+
+        <p:layoutUnit position="center">
+
+            <p:layout>
+
+                    <p:layoutUnit position="north">
+
+                        <h:form>
+                            <p:panelGrid columns="2" style="width: 100%; border: none" styleClass="ui-panelgrid-blank">
+
+                            <p:fieldset legend="[H]ave">
+                                <p:panelGrid columns="3" style="border: none; width: 100%" styleClass="ui-panelgrid-blank">
+                                    <p:panelGrid>
+                                        <p:outputLabel value="Item name" for="haveName" />
+                                        <br/>
+                                        <p:autoComplete id="haveName" effect="fade" dropdown="true" scrollHeight="400" forceSelection="true" completeMethod="#{finderBean.getItems()}" value="#{finderBean.have.name}"/>
+                                    </p:panelGrid>
+
+                                    <p:panelGrid>
+                                        <p:outputLabel value="Paint" for="havePaint" />
+                                        <br/>
+                                        <p:autoComplete id="havePaint" effect="fade" dropdown="true" forceSelection="true" completeMethod="#{finderBean.getColors()}" value="#{finderBean.have.paint}"/>
+                                    </p:panelGrid>
+
+                                    <p:panelGrid>
+                                        <p:outputLabel value="Certification" for="haveCert" />
+                                        <br/>
+                                        <p:autoComplete id="haveCert" effect="fade" dropdown="true" forceSelection="true" completeMethod="#{finderBean.getCertifications()}" value="#{finderBean.have.certification}"/>
+                                    </p:panelGrid>
+                                </p:panelGrid>
+                            </p:fieldset>
+
+
+                            <p:fieldset legend="[W]ant">
+                                <p:panelGrid columns="3" style="border: none; width: 100%" styleClass="ui-panelgrid-blank">
+                                    <p:panelGrid>
+                                        <p:outputLabel value="Item name" for="wantName" />
+                                        <br/>
+                                        <p:autoComplete id="wantName" effect="fade" dropdown="true" scrollHeight="400" forceSelection="true" completeMethod="#{finderBean.getItems()}" value="#{finderBean.want.name}"/>
+                                    </p:panelGrid>
+
+                                    <p:panelGrid>
+                                        <p:outputLabel value="Paint" for="wantPaint" />
+                                        <br/>
+                                        <p:autoComplete id="wantPaint" effect="fade" dropdown="true" forceSelection="true" completeMethod="#{finderBean.getColors()}" value="#{finderBean.want.paint}"/>
+                                    </p:panelGrid>
+
+                                    <p:panelGrid>
+                                        <p:outputLabel value="Certification" for="wantCert" />
+                                        <br/>
+                                        <p:autoComplete id="wantCert" effect="fade" dropdown="true" forceSelection="true" completeMethod="#{finderBean.getCertifications()}" value="#{finderBean.want.certification}"/>
+                                    </p:panelGrid>
+                                </p:panelGrid>
+                            </p:fieldset>
+                        </p:panelGrid>
+
+                            <center>
+                                <br/>
+                                <p:selectOneButton value="#{finderBean.platform}">
+                                    <f:selectItem itemLabel="PC" itemValue="Steam"/>
+                                    <f:selectItem itemLabel="PS4" itemValue="Playstation 4"/>
+                                    <f:selectItem itemLabel="Xbox" itemValue="Xbox One"/>
+                                </p:selectOneButton>
+                                <br/>
+                                <br/>
+                                <p:commandButton value="Start" id="startButton" actionListener="#{finderBean.start()}" style="width: 150px" disabled="#{finderBean.disabled}" update="@this"/>
+                                <p:commandButton value="Stop" actionListener="#{finderBean.stop()}" style="width: 150px" update="startButton"/>
+                            </center>
+                        </h:form>
+
+                    </p:layoutUnit>
+
+
+
+                <p:layoutUnit position="south" style="overflow: hidden !important;">
+
+                    <hr/>
+
+                    <p:commandButton value="How to" type="button" onclick="PF('dlg').show();" style="float: left"/>
+
+                    <p style="font-size: 15px; float: right; font-style: italic">
+                        Created by Tony Romero -
+                        <a href="http://steamcommunity.com/id/anphetamina/">
+                            <p:graphicImage library="img" name="about/steamIcon20.png" style="vertical-align: middle"/>
+                        </a>
+                        <a href="https://www.facebook.com/tonyromero93">
+                            <p:graphicImage library="img" name="about/fbIcon20.png" style="vertical-align: middle"/>
+                        </a>
+                    </p>
+
+                </p:layoutUnit>
+
+                <p:layoutUnit position="center">
+                    <h:form>
+                        <p:socket channel="/add">
+                            <p:ajax event="message" update="tradeList"/>
+                        </p:socket>
+
+                        <p:dataTable var="trade" value="#{finderBean.trades}" id="tradeList" editable="false" emptyMessage="Press Start to perform a new search...">
+                            <p:column headerText="Site" style="width: 70px; text-align: center">
+                                <a href="#{trade.url}" target="_blank">
+                                    <p:graphicImage library="img" name="sites/#{trade.site.toLowerCase()}.png" />
+                                </a>
+                            </p:column>
+
+                            <p:column headerText="Platform" style="width: 70px; text-align: center">
+                                <p:graphicImage library="img" name="platforms/#{trade.platform.toLowerCase()}.png" />
+                            </p:column>
+
+                            <p:column headerText="User" style="width: 150px">
+                                <h:outputText value="#{trade.username}" />
+                            </p:column>
+
+                            <p:column headerText="Have">
+                                <h:outputText value="#{trade.have}" />
+                            </p:column>
+
+                            <p:column headerText="Want">
+                                <h:outputText value="#{trade.want}" />
+                            </p:column>
+
+                            <p:column headerText="Notes">
+                                <h:outputText value="#{trade.notes}" style="font-style: italic" />
+                            </p:column>
+                        </p:dataTable>
+                    </h:form>
+                </p:layoutUnit>
+
+            </p:layout>
+        </p:layoutUnit>
+    </p:layout>
+
+
+
+
+    <p:dialog header="How to..." id="tutorial" widgetVar="dlg" modal="true" width="520" height="220" resizable="false">
+        <h3>To perform a new search please follow these easy steps:</h3>
+        <ol>
+            <li>Put in the [H]ave panel the item you WANT</li>
+            <li>Put in the [W]ant panel the item you HAVE</li>
+            <li>To run press the Start button</li>
+            <li>Press the Stop button to cancel the current search</li>
+        </ol>
+    </p:dialog>
+
+</h:body>
+</html>
