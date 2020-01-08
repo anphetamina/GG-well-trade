@@ -1,6 +1,6 @@
 ## About the project
 
-Two versions have been developed, the first one is a simple Java client application implementing a Java swing GUI, the second one is a web application implementing a Tomcat server and Primefaces acting as a "glue" between the Java core and the HTML page. The prject has been developed using a MVC architecture with a Proxy/Skeleton pattern including a multi-threaded environment, the application setup is modular and easily extendable, the core is essentially a web crawler written in Java.
+Two versions have been developed, the first one is a simple Java client application implementing a Java swing GUI, the second one is a web application implementing a Tomcat server and Primefaces acting as a "glue" between the Java core and the HTML page. The project has been developed using a MVC architecture with a Proxy/Skeleton pattern including a multi-threaded environment, the application setup is modular and easily extendable, the core is essentially a web crawler written in Java.
 
 ----
 ## GG well trade! (BETA)
